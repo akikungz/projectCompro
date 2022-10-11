@@ -1,8 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900");
 
-/* @import url("custom.css"); */
-
 /*
 	Escape Velocity by HTML5 UP
 	html5up.net | @ajlkn
@@ -1525,7 +1523,7 @@ input, select, textarea {
 		-webkit-transition: all .25s ease-in-out;
 		-ms-transition: all .25s ease-in-out;
 		transition: all .25s ease-in-out;
-		/* -webkit-appearance: none; */
+		-webkit-appearance: none;
 		display: block;
 		border: 0;
 		background: #eee;
@@ -1836,8 +1834,8 @@ input, select, textarea {
 	}
 
 		.feature-list section {
-			/* border-top: solid 1px #eee; */
-			/* padding-top: 1em; */
+			border-top: solid 1px #eee;
+			padding-top: 3em;
 			padding-left: 5em;
 			position: relative;
 		}
@@ -2363,9 +2361,9 @@ input, select, textarea {
 			max-width: 100%;
 		}
 
-			/* #footer .feature-list section {
+			#footer .feature-list section {
 				border-top-color: rgba(255, 255, 255, 0.05);
-			} */
+			}
 
 			#footer .feature-list h3:before {
 				background: #3d4249 url("images/overlay.png");
@@ -2551,7 +2549,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer .feature-list {
-				/* border-top: solid 1px rgba(255, 255, 255, 0.05); */
+				border-top: solid 1px rgba(255, 255, 255, 0.05);
 				padding-top: 4em;
 			}
 
