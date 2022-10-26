@@ -313,7 +313,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 		let mybutton = document.getElementById("myBtn");
 
 		// When the user scrolls down 20px from the top of the document, show the button
-		window.onscroll = scrollFunction;
+		window.onscroll = function () { scrollFunction() };
 
 		function scrollFunction() {
 			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
