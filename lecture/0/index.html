@@ -1,62 +1,29 @@
-<!DOCTYPE HTML>
-<!--
-Escape Velocity by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>No Sidebar - Escape Velocity by HTML5 UP</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/main.css" />
-
-	<style>
-		.highlight {
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
-
-			height: 100%;
-		}
-
-		.highlight ul.actions {
-			margin-top: 0;
-		}
-
-		#myBtn {
-			display: none; /* Hidden by default */
-			position: fixed; /* Fixed/sticky position */
-			bottom: 20px; /* Place the button at the bottom of the page */
-			right: 30px; /* Place the button 30px from the right */
-			z-index: 99; /* Make sure it does not overlap */
-
-			width: 32px;
-			height: 32px;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/custom.css">
+    <title>Document</title>
 </head>
+<body class="left-sidebar is-preload">
+    <div id="page-warpper">
+        <!-- Header -->
+        <section id="header" class="warpper">
 
-<body class="no-sidebar is-preload">
-	<button onclick="topFunction()" id="myBtn" style="padding: 0;min-width: 0;" class="btn btn-secondary"><i class="fa fa-arrow-circle-up" style="width: 16px;"></i></button>
-	<div id="page-wrapper">
+            <!-- Logo -->
+            <div id="logo">
+                <h1><a href="../../">Computer Programming</a></h1>
+                <p>Lecture 0 - Introduction</p>
+            </div>
 
-		<!-- Header -->
-		<section id="header" class="wrapper" style="background-image: url('./images/core/banner.png');background-color: #555;">
-
-			<!-- Logo -->
-			<div id="logo">
-				<h1><a href="index.html">Computer Programming</a></h1>
-				<p>Python Lecture</p>
-			</div>
-
-			<!-- Nav -->
-			<nav id="nav">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="#details">Details</a></li>
+            <!-- Nav -->
+            <nav id="nav">
+                <ul>
+					<li><a href="../../">Home</a></li>
 					<li>
 						<a href="javascript:void()">Lectures</a>
 						<ul>
@@ -73,262 +40,90 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 					</li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
-			</nav>
+            </nav>
+        </section>
 
-		</section>
+        <!-- Hightlights -->
+        <section id="main" class="wrapper style1" style="margin-top: -4em;">
+            <div class="title" id="details">Lecture 0 - Introduction</div>
+            <div class="container">
+                <div class="row gtr-150">
+                    <div class="col-4 col-12-medium">
+                        <div id="sidebar">
+                            <section class="box">
+                                <header>
+                                    <h2>Navigation</h2>
+                                </header>
+                                <ul class="style3">
+                                    <li><a href="#history">Python history</a></li>
+                                    <li><a href="#why">Why Python</a></li>
+                                    <li><a href="#install">Install Python</a></li>
+                                    <li><a href="#simple">print("Hello, World")</a></li>
+                                    <li><a href="#vscode">VS Code</a></li>
+                                    <li><a href="#git">Git & Github</a></li>
+                                    <li><a href="#print">print() Command and Format</a></li>
+                                    <li><a href="#input">input() Command</a></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="col-8 col-12-medium imp-medium">
+                        <div id="content">
+                            <article class="box post">
+                                <header class="style1">
+                                    <h2 id="history">Python history</h2>
+                                </header>
+                                <a href="javascript:void()" class="image featured">
+                                    <img src="./images/INE-Python-L00-Introduction-12.png" alt="">
+                                </a>
+                            </article>
+                            <hr>
+                            <article class="box post">
+                                <header class="style1">
+                                    <h2 id="why">Why Python</h2>
+                                </header>
+                                <h3>1. Python is easy to learn</h3>
+                                <p>One of the largest hurdles for those who are interested in getting into coding is that programming languages really are their own languages; they have their own rules, syntax, grammatical structures, etc., and they often necessitate learning a completely new vocabulary.</p>
+                                <p>But Python is different. More so than nearly any other programming language, Python reads and writes very similarly to standard English. It uses a simplified syntax with an emphasis on natural language, for a much easier learning curve for beginners. And, because Python is free to use and is supported by an extremely large ecosystem of libraries and packages, it’s often the first-choice language for new developers. These and other factors help demonstrate why Python is the best choice for those without proper coding experience.</p>
 
-		<!-- Highlights -->
-		<section id="highlights" class="wrapper style3">
-			<div class="title" id="details">Lecture Details</div>
-			<div class="container">
-				<div class="row aln-center">
-					<div class="col-4 col-12-medium">
-						<section class="highlight">
-							<div>
-								<a href="./lecture/0/" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-								<h3 style="height: 44px;"><a href="./lecture/0/">0 - Introduction</a></h3>
-								<ul style="text-align: left;">
-									<li>Python history</li>
-									<li>Why Python</li>
-									<li>Install Python</li>
-									<li>print("Hello, World")</li>
-									<li>VS Code</li>
-									<li>Git & Github</li>
-									<li>print() Command and Format</li>
-									<li>input() Command</li>
-								</ul>
-							</div>
-							<ul class="actions">
-								<li><a href="./lecture/0/" class="button style1">Learn More</a></li>
-							</ul>
-						</section>
-					</div>
-					<div class="col-4 col-12-medium">
-						<section class="highlight">
-							<div>
-								<a href="./lecture/1/" class="image featured"><img src="images/pic02.jpg" alt=""></a>
-								<h3 style="height: 44px;"><a href="./lecture/1/">1 - Data types, Viriables and Expression</a></h3>
-								<ul style="text-align: left;">
-									<li>Computer and Programming</li>
-									<li>Program Design and IPO (Input Process Output)</li>
-									<li>Viriable and Data type</li>
-									<li>Numbers, Boolean, String</li>
-									<li>Python Operators</li>
-									<li>Input</li>
-									<li>Comments</li>
-								</ul>
-							</div>
-							<ul class="actions">
-								<li><a href="./lecture/1/" class="button style1">Learn More</a></li>
-							</ul>
-						</section>
-					</div>
-					<div class="col-4 col-12-medium">
-						<section class="highlight">
-							<div>
-								<a href="./lecture/2/" class="image featured"><img src="images/pic02.jpg" alt=""></a>
-								<h3 style="height: 44px;"><a href="./lecture/2/">2 - Selection if-elif-else</a></h3>
-								<ul style="text-align: left;">
-									<li>draw.io</li>
-									<li>if</li>
-									<li>if-else</li>
-									<li>if-elif-else</li>
-								</ul>
-							</div>
-							<ul class="actions">
-								<li><a href="./lecture/2/" class="button style1">Learn More</a></li>
-							</ul>
-						</section>
-					</div>
-					<div class="col-4 col-12-medium">
-						<section class="highlight">
-							<div>
-								<a href="./lecture/3/" class="image featured"><img src="images/pic02.jpg" alt=""></a>
-								<h3 style="height: 44px;"><a href="./lecture/3/">3 - Repetition While For</a></h3>
-								<ul style="text-align: left;">
-									<li>Repetition Structure</li>
-									<li>while Loop - A condition-controlled loop</li>
-									<li>for Loop - A count-controlled loop</li>
-									<li>Calculating Running Total</li>
-									<li>Sentinels</li>
-									<li>Input Validation Loops</li>
-									<li>Nested Loops</li>
-									<li>pass, continue, break ...line pdf</li>
-								</ul>
-							</div>
-							<ul class="actions">
-								<li><a href="./lecture/3/" class="button style1">Learn More</a></li>
-							</ul>
-						</section>
-					</div>
-					<div class="col-4 col-12-medium">
-						<section class="highlight">
-							<div>
-								<a href="./lecture/4/" class="image featured"><img src="images/pic02.jpg" alt=""></a>
-								<h3 style="height: 44px;"><a href="./lecture/4/">4 - String</a></h3>
-								<ul style="text-align: left;">
-									<li>Strings</li>
-									<li>String indexing</li>
-									<li>String slicing</li>
-									<li>String formatting</li>
-									<li>len(), string()</li>
-									<li>String Methods</li>
-									<li>String Boolean Methods</li>
-								</ul>
-							</div>
-							<ul class="actions">
-								<li><a href="./lecture/4/" class="button style1">Learn More</a></li>
-							</ul>
-						</section>
-					</div>
-					<div class="col-4 col-12-medium">
-						<section class="highlight">
-							<div>
-								<a href="./lecture/5/" class="image featured"><img src="images/pic02.jpg" alt=""></a>
-								<h3 style="height: 44px;"><a href="./lecture/5/">5 - Functions</a></h3>
-							</div>
-							<ul class="actions">
-								<li><a href="./lecture/5/" class="button style1">Learn More</a></li>
-							</ul>
-						</section>
-					</div>
-					<div class="col-4 col-12-medium">
-						<section class="highlight">
-							<div>
-								<a href="./lecture/6" class="image featured"><img src="images/pic02.jpg" alt=""></a>
-								<h3 style="height: 44px;"><a href="./lecture/6">6 - Files and Exceptions</a></h3>
-							</div>
-							<ul class="actions">
-								<li><a href="./lecture/6" class="button style1">Learn More</a></li>
-							</ul>
-						</section>
-					</div>
-					<div class="col-4 col-12-medium">
-						<section class="highlight">
-							<div>
-								<a href="./lecture/7" class="image featured"><img src="images/pic02.jpg" alt=""></a>
-								<h3 style="height: 44px;"><a href="./lecture/7">7 - List and Tuples</a></h3>
-							</div>
-							<ul class="actions">
-								<li><a href="./lecture/7" class="button style1">Learn More</a></li>
-							</ul>
-						</section>
-					</div>
-					<div class="col-4 col-12-medium">
-						<section class="highlight">
-							<div>
-								<a href="./lecture/8" class="image featured"><img src="images/pic02.jpg" alt=""></a>
-								<h3 style="height: 44px;"><a href="./lecture/8">8 - Dictionary and Set</a></h3>
-							</div>
-							<ul class="actions">
-								<li><a href="./lecture/8" class="button style1">Learn More</a></li>
-							</ul>
-						</section>
-					</div>
-				</div>
-			</div>
-		</section>
+                                <hr>
 
-		<!-- Footer -->
-		<section id="footer" class="wrapper m-0 pb-0">
-			<div class="title" id="contact">About me & Contact</div>
-			<div class="container d-flex justify-content-center">
-				<div class="row m-0">
-					<header class="style1 col-6 col-12-medium d-flex justify-content-center align-items-center" style="border: 0;">
-						<div class="d-flex flex-column justify-content-center align-items-center">
-							<img src="https://scontent.fbkk21-1.fna.fbcdn.net/v/t39.30808-6/277530061_1651949845153059_1882076327746208940_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeE_TSBpptn4hka5K8cxtTKLPrXxttIJFNw-tfG20gkU3M6gNRQCyGly5ZlIONgfBNfJoPyGjGbHDMGqUwvgEBFP&_nc_ohc=qFlTqYGg3noAX-h4eon&tn=kibIVjwCGrZTd_iI&_nc_ht=scontent.fbkk21-1.fna&oh=00_AT8x-pLBWpY_fVs0JDg_5v0HIeCaeXUx6k1NAcoeVqPjgA&oe=635AA27B" alt="Profile Picture" width="25%" style="border-radius: 50%;" />
-					
-							<section class="feature-list" style="padding: 0;margin: 0;margin-top: -11px">
-								<section style="text-align: left;border: 0;">
-									<h3 class="icon solid fa-address-book">Thitipong Tapianthong</h3>
-									<span>INE@Faculty of Industrial Technology and Management</span>
-								</section>
-							</section>
-						</div>
-					</header>
-					<div class="col-6 col-12-medium">
-					
-						<!-- Contact -->
-						<section class="feature-list small">
-							<div class="row">
-								<div class="col-6 col-12-small">
-									<section>
-										<h3 class="icon solid fa-home">Mailing Address</h3>
-										<p>
-											King Mongkut's University of Technology North Bangkok @Prachinburi<br />
-											Prachinburi, Prachinburi, 25230
-										</p>
-									</section>
-								</div>
-								<div class="col-6 col-12-small">
-									<section>
-										<h3 class="icon solid fa-comment">Social</h3>
-										<p>
-											<a href="https://facebook.com/akikungz" target="_blank">facebook.com/akikungz</a><br />
-											<a href="https://twitter.com/akikungz" target="_blank">twitter.com/akikungz</a><br />
-											<a href="https://instagram.com/akikungz" target="_blank">instagram.com/akikungz</a>
-										</p>
-									</section>
-								</div>
-								<div class="col-6 col-12-small">
-									<section>
-										<h3 class="icon solid fa-envelope">Email</h3>
-										<p>
-											<a href="mailto:s6506022620036@kmutnb.ac.th">s6506022620036@kmutnb.ac.th</a>
-										</p>
-									</section>
-								</div>
-								<div class="col-6 col-12-small">
-									<section>
-										<h3 class="icon solid fa-phone">Phone</h3>
-										<p>(+66) 98-3721725</p>
-									</section>
-								</div>
-							</div>
-						</section>
-					</div>
-				</div>
-			</div>
-			<div id="copyright" class="m-0 p-0">
-				<ul>
-					<li>&copy; Untitled.</li>
-					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</div>
-		</section>
+                                <h3>2. Python has an active, supportive community</h3>
+                                <p>No programmer is an island; they depend on essential documentation and support so that when they encounter unexpected issues or new problems to solve, they have somewhere to go to find answers. Python has been around for over three decades, more than enough time for a dedicated user community to grow up around it. The Python community includes developers of all skill levels and provides easy access to documentation, guides, tutorials, and more.</p>
+                                <p>At the same time, the Python community is extremely active. When developers are up against deadlines and in desperate need of help, they can work with the community to crowdsource fast, effective solutions.</p>
 
-	</div>
+                                <hr>
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-	<script src="assets/js/bootstrap.bundle.min.js"></script>
+                                <h3>3. Python is flexible</h3>
+                                <p>Python is often described as a general-purpose programming language. This means that unlike domain-specific languages which are designed only for certain application types, Python may be used to develop nearly any kind of application in any industry or field.</p>
+                                <p>What is Python used for? Python has been used to great effect in web development, data analytics, machine learning, data science, data engineering, and even machine learning and artificial intelligence. Many top businesses and software companies depend on Python including Facebook, Google, Netflix, Instagram, and others. Supported by a range of frameworks and libraries, there’s essentially no coding job that Python can’t handle.</p>
 
-	<script>
-		// Get the button:
-		let mybutton = document.getElementById("myBtn");
+                                <p>Source : <a href="https://www.pulumi.com/why-is-python-so-popular/">Plulumi</a></p>
+                            </article>
+                            <hr>
+                            <article class="box post">
+                                <header class="style1">
+                                    <h2 id="install">Install Python</h2>
+                                </header>
+                                <a href="javascript:void()" class="image featured">
+                                    <img src="./images/INE-Python-L00-Introduction-27.png" alt="">
+                                </a>
+                                <p><a href="https://www.python.org/downloads/">Download Python</a></p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
-		// When the user scrolls down 20px from the top of the document, show the button
-		window.onscroll = function () { scrollFunction() };
-
-		function scrollFunction() {
-			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-				mybutton.style.display = "block";
-			} else {
-				mybutton.style.display = "none";
-			}
-		}
-
-		// When the user clicks on the button, scroll to the top of the document
-		function topFunction() {
-			document.body.scrollTop = 0; // For Safari
-			document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-		}
-	</script>
+    <!-- Scripts -->
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script src="../../assets/js/jquery.dropotron.min.js"></script>
+    <script src="../../assets/js/browser.min.js"></script>
+    <script src="../../assets/js/breakpoints.min.js"></script>
+    <script src="../../assets/js/util.js"></script>
+    <script src="../../assets/js/main.js"></script>
+    <script src="../../assets/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
