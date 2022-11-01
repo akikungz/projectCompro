@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../assets/css/main.css">
     <link rel="stylesheet" href="../../assets/css/custom.css">
-    <title>Document</title>
+    <title>Computer Programming | Lecture 0 - Introduction</title>
 </head>
 <body class="left-sidebar is-preload">
     <div id="page-warpper">
         <!-- Header -->
-        <section id="header" class="warpper">
+        <section id="header" class="warpper" style="background-image: url('../../images/core/banner.png');">
 
             <!-- Logo -->
             <div id="logo">
@@ -27,15 +27,15 @@
 					<li>
 						<a href="javascript:void()">Lectures</a>
 						<ul>
-							<li><a href="./lecture/0/">0 - Introduction</a></li>
-							<li><a href="./lecture/1/">1 - Data types, Viriables and Expression</a></li>
-							<li><a href="./lecture/2/">2 - Selection if-elif-else</a></li>
-							<li><a href="./lecture/3/">3 - Repetition While For</a></li>
-							<li><a href="./lecture/4/">4 - String</a></li>
-							<li><a href="./lecture/5/">5 - Functions</a></li>
-							<li><a href="./lecture/6/">6 - Files and Exceptions</a></li>
-							<li><a href="./lecture/7/">7 - List and Tuples</a></li>
-							<li><a href="./lecture/8/">8 - Dictionary and Set</a></li>
+							<li><a href="../0/">0 - Introduction</a></li>
+							<li><a href="../1/">1 - Data types, Viriables and Expression</a></li>
+							<li><a href="../2/">2 - Selection if-elif-else</a></li>
+							<li><a href="../3/">3 - Repetition While For</a></li>
+							<li><a href="../4/">4 - String</a></li>
+							<li><a href="../5/">5 - Functions</a></li>
+							<li><a href="../6/">6 - Files and Exceptions</a></li>
+							<li><a href="../7/">7 - List and Tuples</a></li>
+							<li><a href="../8/">8 - Dictionary and Set</a></li>
 						</ul>
 					</li>
 					<li><a href="#contact">Contact</a></li>
@@ -44,12 +44,12 @@
         </section>
 
         <!-- Hightlights -->
-        <section id="main" class="wrapper style1" style="margin-top: -4em;">
+        <section id="main" class="wrapper style2" style="margin-top: -4em;">
             <div class="title" id="details">Lecture 0 - Introduction</div>
             <div class="container">
                 <div class="row gtr-150">
-                    <div class="col-4 col-12-medium">
-                        <div id="sidebar">
+                    <div class="col-4 col-12-medium d-none d-md-block">
+                        <div id="sidebar" class="sticky-top">
                             <section class="box">
                                 <header>
                                     <h2>Navigation</h2>
@@ -62,7 +62,6 @@
                                     <li><a href="#vscode">VS Code</a></li>
                                     <li><a href="#git">Git & Github</a></li>
                                     <li><a href="#print">print() Command and Format</a></li>
-                                    <li><a href="#input">input() Command</a></li>
                                 </ul>
                             </section>
                         </div>
@@ -73,9 +72,10 @@
                                 <header class="style1">
                                     <h2 id="history">Python history</h2>
                                 </header>
-                                <a href="javascript:void()" class="image featured">
+                                <div class="image featured">
                                     <img src="./images/INE-Python-L00-Introduction-12.png" alt="">
-                                </a>
+                                </div>
+                                <p>Source: INE-Python-L00-Introduction.pdf | Computer Programming Lecture Sheet</p>
                             </article>
                             <hr>
                             <article class="box post">
@@ -98,23 +98,189 @@
                                 <p>Python is often described as a general-purpose programming language. This means that unlike domain-specific languages which are designed only for certain application types, Python may be used to develop nearly any kind of application in any industry or field.</p>
                                 <p>What is Python used for? Python has been used to great effect in web development, data analytics, machine learning, data science, data engineering, and even machine learning and artificial intelligence. Many top businesses and software companies depend on Python including Facebook, Google, Netflix, Instagram, and others. Supported by a range of frameworks and libraries, there’s essentially no coding job that Python can’t handle.</p>
 
-                                <p>Source : <a href="https://www.pulumi.com/why-is-python-so-popular/">Plulumi</a></p>
+                                <p>Source: <a href="https://www.pulumi.com/why-is-python-so-popular/" target="_blank">Plulumi</a></p>
                             </article>
                             <hr>
                             <article class="box post">
                                 <header class="style1">
                                     <h2 id="install">Install Python</h2>
                                 </header>
-                                <a href="javascript:void()" class="image featured">
-                                    <img src="./images/INE-Python-L00-Introduction-27.png" alt="">
+                                <a href="https://www.python.org/downloads/" class="image featured">
+                                    <img src="./images/python-download.png" alt="Python Download">
                                 </a>
-                                <p><a href="https://www.python.org/downloads/">Download Python</a></p>
+                                <p><a href="https://www.python.org/downloads/" target="_blank">Download Python</a></p>
+                                <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.youtube.com/embed/VkdkwxGka3M" title="YouTube video" allowfullscreen></iframe>
+                                </div>
+                                <p>How to install Python</p>
+                            </article>
+                            <hr>
+                            <article class="box post">
+                                <header class="style1">
+                                    <h2 id="simple">print("Hello, World")</h2>
+                                </header>
+                                <div class="image featured">
+                                    <img src="./images/print-hello.png" alt="print('Hello, World')">
+                                </div>
+                                <hr>
+                                <div class="image featured">
+                                    <img src="./images/hello-world-udacity.webp" alt="print('Hello, World')">
+                                </div>
+                                <p>Source: <a href="https://www.udacity.com/blog/2020/11/what-you-need-to-know-about-hello-world-in-python.html" target="_blank">Udacity</a></p>
+                            </article>
+                            <hr>
+                            <article class="box post">
+                                <header class="style1">
+                                    <h2 id="vscode">VS Code</h2>
+                                </header>
+                                <div class="image featured">
+                                    <img src="./images/vs-code.png" alt="VS Code">
+                                </div>
+                                <p>Source: <a href="https://code.visualstudio.com/" target="_blank">VS Code</a></p>
+                                <h3>VS Code - GUI</h3>
+                                <div class="image featured">
+                                    <img src="./images/vs-code-gui.png" alt="VS Code GUI">
+                                </div>
+                            </article>
+                            <hr>
+                            <article class="box post">
+                                <header class="style1">
+                                    <h2 id="git">Git & Github</h2>
+                                </header>
+                                <h3>Git</h3>
+                                <div class="image featured">
+                                    <img src="./images/git.png" alt="Git">
+                                </div>
+                                <p>Source : <a href="https://git-scm.com/" target="_blank">Git</a></p>
+                                <p><a href="https://www.atlassian.com/git/tutorials/what-is-git">What is git?</a></p>
+                                <hr>
+                                <h3>Github</h3>
+                                <div class="image featured">
+                                    <img src="./images/INE-Python-L00-Introduction-41.png" alt="Github">
+                                </div>
+                                <p>Source: INE-Python-L00-Introduction.pdf | Computer Programming Lecture Sheet</p>
+                                <p>Download: <a href="https://github.com">Github</a></p>
+                            </article>
+                            <hr>
+                            <article class="box post">
+                                <header class="style1">
+                                    <h2 id="print">print() Command and Format</h2>
+                                </header>
+                                <div id="printCommand" class="carousel slide image featured" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./images/INE-Python-L00-Introduction-47.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./images/INE-Python-L00-Introduction-49.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./images/INE-Python-L00-Introduction-50.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./images/INE-Python-L00-Introduction-51.png" class="d-block w-100" alt="...">
+                                        </div> 
+                                        <div class="carousel-item">
+                                            <img src="./images/INE-Python-L00-Introduction-53.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./images/INE-Python-L00-Introduction-54.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./images/INE-Python-L00-Introduction-56.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./images/INE-Python-L00-Introduction-57.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./images/INE-Python-L00-Introduction-59.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./images/INE-Python-L00-Introduction-61.png" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button style="height: auto;width: auto;min-width: none;" class="carousel-control-prev" type="button" data-bs-target="#printCommand" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button style="height: auto;width: auto;min-width: none;" class="carousel-control-next" type="button" data-bs-target="#printCommand" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <p>Source: INE-Python-L00-Introduction.pdf | Computer Programming Lecture Sheet</p>
                             </article>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <section id="footer" class="wrapper pb-0" style="margin-top: -4em;">
+			<div class="title" id="contact">About me & Contact</div>
+			<div class="container d-flex justify-content-center">
+				<div class="row m-0">
+					<header class="style1 col-6 col-12-medium d-flex justify-content-center align-items-center" style="border: 0;">
+						<div class="d-flex flex-column justify-content-center align-items-center">
+							<img src="../../images/profile.jpg" alt="Profile Picture" width="25%" style="border-radius: 50%;" />
+					
+							<section class="feature-list" style="padding: 0;margin: 0;margin-top: -11px">
+								<section style="text-align: left;border: 0;">
+									<h3 class="icon solid fa-address-book">Thitipong Tapianthong</h3>
+									<span>INE@Faculty of Industrial Technology and Management</span>
+								</section>
+							</section>
+						</div>
+					</header>
+					<div class="col-6 col-12-medium">
+					
+						<!-- Contact -->
+						<section class="feature-list small">
+							<div class="row">
+								<div class="col-6 col-12-small">
+									<section>
+										<h3 class="icon solid fa-home">Mailing Address</h3>
+										<p>
+											King Mongkut's University of Technology North Bangkok @Prachinburi<br />
+											Prachinburi, Prachinburi, 25230
+										</p>
+									</section>
+								</div>
+								<div class="col-6 col-12-small">
+									<section>
+										<h3 class="icon solid fa-comment">Social</h3>
+										<p>
+											<a href="https://facebook.com/akikungz" target="_blank">facebook.com/akikungz</a><br />
+											<a href="https://twitter.com/akikungz" target="_blank">twitter.com/akikungz</a><br />
+											<a href="https://instagram.com/akikungz" target="_blank">instagram.com/akikungz</a>
+										</p>
+									</section>
+								</div>
+								<div class="col-6 col-12-small">
+									<section>
+										<h3 class="icon solid fa-envelope">Email</h3>
+										<p>
+											<a href="mailto:s6506022620036@kmutnb.ac.th">s6506022620036@kmutnb.ac.th</a>
+										</p>
+									</section>
+								</div>
+								<div class="col-6 col-12-small">
+									<section>
+										<h3 class="icon solid fa-phone">Phone</h3>
+										<p>(+66) 98-3721725</p>
+									</section>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+			<div id="copyright" class="m-0 p-0">
+				<ul>
+					<li>&copy; Untitled.</li>
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</section>
     </div>
 
     <!-- Scripts -->

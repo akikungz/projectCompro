@@ -31,3 +31,21 @@
     text-overflow: ellipsis;
     overflow: hidden;
 }
+
+#header {
+    background-image: url('./images/core/banner.png');
+    background-color: rgb(49, 49, 49);
+}
+
+.test-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.title {
+    padding: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
