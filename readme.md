@@ -1,4 +1,4 @@
-# Computer Programming Project - 2022 INE@FITM.KMUTNB
+# Computer Programming Project - 2022 | INE@[FITM.KMUTNB](https://github.com/FITM-KMUTNB)
 Learning Objectives
 - To learn how to use Python programming language.
 - To learn how to use Git and GitHub.
